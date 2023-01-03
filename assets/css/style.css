@@ -12,6 +12,31 @@ body {
     color: #FFF;
 }
 
+input {
+    padding: 8px;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+}
+
+input::placeholder {
+    color: #bebebe;
+}
+
+button {
+    padding: 8px;
+    background-color: #E30613;
+    border-radius: 6px;
+    border: none;
+    color: #FFF;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
 .header-content {
     max-width: 1200px;
     margin: 0 auto;
@@ -22,7 +47,7 @@ header .navbar {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 header .navbar img {
@@ -34,19 +59,67 @@ header .navbar img {
     flex-basis: 33.33%;
 }
 
-.login-content {
-    text-align: right;
-}
-
 .search-bar-content {
     text-align: center;
 }
 
+.search-bar-content form {
+    width: 100%;
+    position: relative;
+}
+
+.search-bar-content form input {
+    width: 100%;
+}
+
+.search-bar-content form button {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.login-content {
+    text-align: right;
+}
+
+.login-content .cart {
+    display: inline-block;
+    position: relative;
+    margin-right: 24px;
+}
+
+.login-content .cart .cart-count {
+    display: block;
+    position: absolute;
+    top: -9px;
+    right: -9px;
+    width: 18px;
+    height: 18px;
+    background-color: #FFED00;
+    color: #1d1d1d;
+    border-radius: 50%;
+}
+
+.login-content .login {
+    display: inline-block;
+    padding: 8px;
+    background-color: #FFED00;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #1d1d1d;
+    font-size: 0.8em;
+    font-weight: 600;
+}
+
 .dropdown-box {
     display: flex;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     justify-content: center;
-
 }
 
 
