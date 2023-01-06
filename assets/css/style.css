@@ -12,6 +12,10 @@ body {
     color: #FFF;
 }
 
+a {
+    text-decoration: none;
+}
+
 input {
     padding: 8px;
     border: none;
@@ -20,7 +24,7 @@ input {
 }
 
 input::placeholder {
-    color: #bebebe;
+    color: #bdbdbd;
 }
 
 button {
@@ -39,7 +43,7 @@ button:active {
 
 .main-header {
     background-image: linear-gradient(to bottom, #253033, #191B20);
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 .header-content {
