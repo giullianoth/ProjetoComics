@@ -1,60 +1,87 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script
+      src="https://kit.fontawesome.com/fe0ca3f893.js"
+      crossorigin="anonymous"
+    ></script>
 
-    <script src="https://kit.fontawesome.com/fe0ca3f893.js" crossorigin="anonymous"></script>
+    <link
+      rel="shortcut icon"
+      href="assets/images/logo.png"
+      type="image/x-icon"
+    />
+    <title>Nerdola</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
 
-    <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
-    <title>Project-Comics</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
-</head>
-
-<body>
+  <body>
     <header class="main-header">
-        <div class="header-content">
-            <div class="navbar">
-                <div class="header-logo">
-                    <a href="#"><img src="assets/images/logo.png" alt="Logo" class="comics-logo"></a>
-                </div>
-                <div class="search-bar-content">
-                    <form action="">
-                        <input type="text" placeholder="Search" class="search-bar">
-                        <button class="btn-submit" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
-                    </form>
-                </div>
-                <div class="login-content">
-                    <button class="cart">
-                        <i class="fa-solid fa-cart-shopping"></i> Cart
-                        <span class="cart-count">3</span>
-                    </button>
-                    <a href="#" class="login"><i class="fa-solid fa-right-to-bracket"></i> Login</a>
-                </div>
-            </div>
-            <div class="dropdown-box">
-                <div class="dropdown-category">
-                    <a class="button-dropdown">Marvel</a>
-                    <div class="dropdown-content">
-                        <a href="#">Vingadores</a>
-                        <a href="#">Homem aranha</a>
-                        <a href="#">Guardiões da Galáxia</a>
-                    </div>
-                </div>
-                <div class="dropdown-category">
-                    <a class="button-dropdown">DC</a>
-                    <div class="dropdown-content">
-                        <a href="#">Batman</a>
-                        <a href="#">Jovens Titãs</a>
-                        <a href="# ">Liga da Justiça</a>
-                    </div>
-                </div>
-            </div>
+      <div class="header-content">
+        <div class="navbar">
+          <div class="header-logo">
+            <a href="#"
+              ><img src="assets/images/logo.png" alt="Logo" class="comics-logo"
+            /></a>
+          </div>
+          <div class="search-bar-content">
+            <form action="">
+              <input type="text" placeholder="Search" class="search-bar" />
+              <button class="btn-submit" type="submit">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </form>
+          </div>
+          <div class="login-content">
+            <button class="cart">
+              <i class="fa-solid fa-cart-shopping"></i> Cart
+              <span class="cart-count">3</span>
+            </button>
+            <a href="#" class="login"
+              ><i class="fa-solid fa-right-to-bracket"></i> Login</a
+            >
+          </div>
         </div>
+        <div class="dropdown-box">
+          <div class="dropdown-category">
+            <a class="button-dropdown">Marvel</a>
+            <div class="dropdown-content">
+              <ul>
+                <li class="list-style">
+                  <a href="#">Vingadores</a>
+                </li>
+                <li class="list-style">
+                  <a href="#">Homem aranha</a>
+                </li>
+                <li class="list-style">
+                  <a href="#">Guardiões da Galáxia</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="dropdown-category">
+            <a class="button-dropdown">DC</a>
+            <div class="dropdown-content">
+              <ul>
+                <li class="list-style">
+                  <a href="#">Batman</a>
+                </li>
+                <li class="list-style">
+                  <a href="#">Jovens Titãs</a>
+                </li>
+                <li class="list-style">
+                  <a href="# ">Liga da Justiça</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
     <script src="assets/js/script.js"></script>
-</body>
-
+  </body>
 </html>

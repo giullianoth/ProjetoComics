@@ -153,18 +153,34 @@ header .navbar img {
     margin: 0px 20px;
 }
 
+.button-dropdown {
+    font-weight: bold;
+    color: #bebebe;
+    cursor: pointer;
+}
+
 .dropdown-content {
     display: none;
     position: absolute;
     min-width: 160px;
-    background-color: aliceblue;
+    border-radius: 5px;
+    background-color: #FFED00;
     box-shadow: 0px 8px 16px 0px rbga(0, 0, 0, 0.2);
     padding: 12px 16px;
     z-index: 1;
 }
 
-.dropdown-content a {    
+.dropdown-content a {
+    text-decoration: none;
     color: #191B20;
+}
+
+.dropdown-content a:hover {
+    color: #E30613;    
+}
+
+.list-style {
+    list-style: none;
 }
 
 .dropdown-category:hover .dropdown-content {
