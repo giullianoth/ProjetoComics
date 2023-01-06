@@ -92,6 +92,14 @@ header .navbar img {
     padding-right: 16px;
 }
 
+.search-bar-content form button i {
+    transition: all 0.2s ease;
+}
+
+.search-bar-content form button:hover i {
+    color: #FFED00;
+}
+
 .login-content {
     text-align: right;
 }
